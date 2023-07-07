@@ -1,0 +1,48 @@
+Slide 1:
+Título: Adaptación de preferencias en sistemas autoadaptables
+
+Slide 2:
+Introducción:
+En el ámbito de los sistemas autoadaptables, la gestión de las preferencias del usuario es un factor crucial para lograr una adaptación efectiva y satisfactoria. Las preferencias de los usuarios suelen ser únicas y cambiantes con el tiempo, lo que introduce una alta incertidumbre en el proceso de adaptación. En este contexto, se propone un marco de trabajo para la adaptación de preferencias en tiempo de ejecución, con el objetivo de mejorar la capacidad de los sistemas autoadaptables para satisfacer las necesidades y expectativas de los usuarios.
+
+Slide 3:
+Trabajo relacionado:
+En esta sección se revisan investigaciones previas relacionadas con los sistemas adaptativos que involucran a los humanos y la adaptación de objetivos en tiempo de ejecución. Se exploran diferentes enfoques y técnicas utilizadas para la gestión de preferencias y funciones de utilidad, así como la importancia de considerar las preferencias del usuario en la toma de decisiones adaptativas.
+
+Slide 4:
+Marco de Adaptación de Preferencias:
+El marco propuesto consta de dos capas principales: una capa inferior que se ocupa de los cambios ambientales y una capa superior que se encarga de la actualización de preferencias basándose en la retroalimentación del usuario. En la capa inferior, se encuentra el monitor, que recopila eventos del entorno que indican cambios ambientales o cambios en las preferencias del usuario. Estos eventos son procesados y clasificados para su posterior análisis. El controlador de capa baja es responsable de tomar decisiones de adaptación en función de los cambios ambientales detectados. Utiliza una función de agregación de atributos de calidad y las preferencias almacenadas en la base de conocimientos para generar estrategias de adaptación que contrarresten las violaciones o mejoren la satisfacción de los objetivos definidos. Si la adaptación no es posible, se puede solicitar un cambio en el diseño del sistema. El controlador de capa alta se encarga de la actualización de preferencias. Recibe las correcciones y retroalimentación del usuario a través del monitor y utiliza el análisis de similitud para encontrar la nueva preferencia más cercana a la antigua y cuya estrategia indicada cumple con las correcciones del usuario. Se realiza un proceso iterativo en el que se evalúan todas las posibles combinaciones de preferencias para encontrar la mejor aproximación a la preferencia actualizada.
+
+Slide 5:
+Actualización de Preferencias Basada en Similitud:
+En esta sección se presenta en detalle el algoritmo de actualización de preferencias basado en el análisis de similitud. El algoritmo utiliza las correcciones del usuario y las estrategias indicadas para encontrar la preferencia más cercana a la antigua y que cumple con las correcciones. Se consideran diferentes enfoques para medir la similitud entre preferencias y estrategias, y se implementa un proceso de selección que tiene en cuenta la distancia entre preferencias, la conformidad con las correcciones del usuario y la similitud entre estrategias.
+
+Slide 6:
+Evaluación:
+En esta sección se presentan los resultados de experimentos realizados para evaluar el enfoque propuesto. Se establecen tres objetivos de evaluación: efectividad, capacidad y rendimiento. En términos de efectividad, se analiza la capacidad del algoritmo para lidiar con la actualización de preferencias, tomando en cuenta diferentes condiciones iniciales y correcciones del usuario. Se evalúa cómo el algoritmo encuentra la preferencia más cercana a la antigua y que cumple con las correcciones, mejorando así la adaptación del sistema. En cuanto a la capacidad, se analiza cómo cada condición de preferencia se acerca a la preferencia real del usuario a través de la actualización de preferencias. Se examina cómo la adaptación de preferencias afecta a la utilidad general del sistema y a la satisfacción del usuario. En términos de rendimiento, se evalúa el tiempo de decisión del algoritmo y cómo diferentes enfoques, como el uso de ranking lingüístico, pueden reducir el espacio de búsqueda y acelerar el proceso de toma de decisiones.
+
+Slide 7:
+Aportes a la sociedad:
+
+Mejora de la satisfacción del usuario: La adaptación de preferencias en sistemas autoadaptables tiene como objetivo principal satisfacer las necesidades y expectativas de los usuarios, ofreciendo una experiencia más personalizada y satisfactoria.
+Mayor eficiencia y utilidad: Al adaptarse a las preferencias del usuario, los sistemas autoadaptables pueden optimizar la toma de decisiones y ofrecer soluciones más eficientes y efectivas.
+Flexibilidad y adaptabilidad: Los sistemas autoadaptables con capacidad de adaptación de preferencias son flexibles y capaces de ajustarse a cambios en el entorno y en las preferencias del usuario, lo que permite una mayor adaptabilidad a diferentes situaciones y necesidades en tiempo real.
+Mejora de la interacción humano-computadora: La adaptación de preferencias facilita una interacción más intuitiva y natural entre los usuarios y los sistemas, mejorando la precisión de las respuestas y recomendaciones ofrecidas.
+Slide 8:
+Ventajas:
+
+Personalización: La adaptación de preferencias permite personalizar los sistemas según las necesidades y preferencias individuales de cada usuario, proporcionando una experiencia más satisfactoria y relevante.
+Eficiencia mejorada: Al ajustarse a las preferencias del usuario, los sistemas pueden optimizar su desempeño y ofrecer resultados más eficientes, ahorrando tiempo y recursos.
+Adaptabilidad: La capacidad de adaptarse a las preferencias cambiantes del usuario y a los cambios en el entorno permite queSlide 8 (continuación):
+los sistemas se mantengan actualizados y relevantes a lo largo del tiempo, asegurando resultados óptimos incluso en situaciones cambiantes.
+Slide 9:
+Desventajas:
+
+Complejidad de implementación: La adaptación de preferencias en sistemas autoadaptables puede ser un desafío técnico y requerir una implementación compleja, lo que implica un mayor tiempo y esfuerzo en el desarrollo y mantenimiento del sistema.
+Posible falta de precisión: La interpretación de las preferencias del usuario puede tener discrepancias o falta de precisión, lo que afecta la efectividad de la adaptación en algunos casos.
+Privacidad y seguridad: La recopilación y uso de datos personales del usuario para la adaptación de preferencias plantea preocupaciones de privacidad y seguridad en el manejo y protección de la información personal.
+Slide 10:
+Conclusiones:
+La adaptación de preferencias en sistemas autoadaptables es una estrategia efectiva para mejorar la satisfacción del usuario y optimizar el rendimiento de los sistemas según las necesidades individuales. La personalización y la capacidad de ajustarse a las preferencias cambiantes del usuario son aspectos clave, lo que permite ofrecer experiencias más relevantes y satisfactorias. Además, la adaptación de preferencias mejora la eficiencia y utilidad de los sistemas, tomando decisiones más acertadas y optimizando los resultados.
+
+Es fundamental abordar las preocupaciones de privacidad y seguridad, y garantizar una implementación adecuada para obtener los beneficios deseados.
